@@ -7,8 +7,6 @@ import requests
 import datetime
 from time import sleep
 
-url = "https://api.telegram.org/bot636679066:AAF_sy_ZKJbmp6r5XAzBMhqtP5viRvG_ctM/"
-
 class BotHandler:
 
 def __init__(self, token):
