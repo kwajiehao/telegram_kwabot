@@ -4,8 +4,8 @@
 
 ########## Part 1
 
-import datetime
-from argparse import ArgumentParser
+imer datetime
+from argparse import ArgumentParserow ow to 
 import requests
 
 
@@ -43,6 +43,11 @@ class BotHandler:
 
 def main():
     """Main method"""
+
+    # Bind to PORT if defined, otherwise default to 5000.
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
+
 
     parser = ArgumentParser('Token ID to be passed here')
     parser.add_argument('--token', type=str, required=True, dest='token')
