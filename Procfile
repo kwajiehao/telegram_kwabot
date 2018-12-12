@@ -1,1 +1,1 @@
-web: python src/kwabot.py
+web: python kwabot.py
