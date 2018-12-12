@@ -5,8 +5,8 @@
 ########## Part 1
 
 import datetime
-import requests
 from argparse import ArgumentParser
+import requests
 
 
 class BotHandler:
