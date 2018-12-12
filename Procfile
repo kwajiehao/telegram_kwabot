@@ -1,1 +1,0 @@
-web: python src/kwabot.py --token 636679066:AAF_sy_ZKJbmp6r5XAzBMhqtP5viRvG_ctM
